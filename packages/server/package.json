@@ -1,0 +1,24 @@
+{
+  "name": "@ssr-react/server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Guilherme Scaldelai",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "husky": "^4.2.3",
+    "precise-commits": "^1.0.2",
+    "prettier": "^2.0.4",
+    "ts-node": "^8.8.2",
+    "tslint": "^6.1.1",
+    "tslint-config-airbnb": "^5.11.2",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {},
+  "husky": {
+    "hooks": {
+      "pre-commit": "precise-commits"
+    }
+  }
+}
