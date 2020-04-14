@@ -1,0 +1,5 @@
+{
+  "exec": "node ./dist/bundle.js",
+  "ext": "js ts tsx",
+  "watch": ["dist"]
+}
